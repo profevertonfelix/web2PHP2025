@@ -7,13 +7,16 @@
 </head>
 <body>
     <h2>Cadastro de usuário</h2>
-    <form action="inserir_ok.php" method="POST">
+    <form action="inserir_ok.php" method="POST" 
+    enctype="multipart/form-data">
         Nome: <input type="text" name="nome" id="nome">
         <br>
         Email: <input type="email" name="email" id="email">
         <br>
         Senha: <input type="password" name="senha" id="senha">
         <br>
+        Imagem:
+        <input type="file" name="imagem"/><br>
         <button type="submit">Enviar</button>
     </form>
 </body>

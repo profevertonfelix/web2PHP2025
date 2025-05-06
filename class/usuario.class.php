@@ -4,6 +4,13 @@
         private $nome;
         private $email;
         private $senha;
+        private $imagem;
+        public function getImagem(){
+            return $this->imagem;
+        }
+        public function setImagem($value){
+            $this->imagem=$value;
+        }
         public function getId(){
             return $this->id;
         }
